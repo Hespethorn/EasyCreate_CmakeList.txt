@@ -1,13 +1,3 @@
----
-title:  Linux CMake 自动生成模板：一键清理、零警告编译、多库链接
-tags:
-  - CMake
-categories:
-  - CMake
-series: CMake
-abbrlink:
-date: 2025-02-24 20:26:00
----
 ## 导言
 
 在 Linux 下用 CMake 管理 C++ 项目时，你是否常遇到这些问题：手动写 CMakeLists.txt 繁琐、旧配置文件干扰编译、未使用参数警告刷屏、链接库不知从何下手？本文将带你打造一个「全能型 CMake 自动生成模板」，一键解决上述所有痛点，让项目构建效率翻倍。
@@ -374,5 +364,6 @@ A：打开CMakeLists.txt，将set(CMAKE_CXX_STANDARD 17)改为set(CMAKE_CXX_STAN
 1. **零警告体验**：默认处理常见警告，编译输出更清爽
 
 1. **新手友好**：预留示例注释，跟着改就能用，降低 CMake 学习成本
+
 
 从此，Linux 下 C++ 项目构建不用再 “复制粘贴 CMake 配置”，一个create_cmake搞定所有基础工作，专注写代码即可！
